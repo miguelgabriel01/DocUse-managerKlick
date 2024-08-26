@@ -117,7 +117,7 @@ export default {
   name: 'ClickTrackerComponent',
   data() {
     return {
-      clickTracker: new ClickTracker('http://localhost:3001/save') // URL da API NestJS
+      clickTracker: new ClickTracker('http://localhost:3030/save') // URL da API NestJS
     };
   },
   methods: {
