@@ -19,7 +19,7 @@ Antes de começar, você precisará clonar o repositório da API e iniciar o ser
    Navegue até a pasta do projeto clonado e execute os comandos:
 
    ```bash
-   cd tesre
+   cd MG-ClickStream-Middleware
    npm install
    npm run start
    ```
