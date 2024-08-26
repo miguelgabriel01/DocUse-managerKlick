@@ -11,7 +11,7 @@ Antes de começar, você precisará clonar o repositório da API e iniciar o ser
 1. **Clone o repositório da API NestJS:**
 
    ```bash
-   git clone https://git.com/teste/tesre](https://github.com/miguelgabriel01/MG-ClickStream-Middleware
+   git clone https://github.com/miguelgabriel01/MG-ClickStream-Middleware
    ```
 
 2. **Instale as dependências e inicie a API:**
