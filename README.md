@@ -177,7 +177,3 @@ A estrutura recomendada para os IDs dos botões segue o padrão:
 3. **Abra o navegador e acesse o aplicativo**. Clique nos botões e verifique se os dados dos cliques estão sendo enviados para a API NestJS.
 
 4. **Verifique o terminal da API** para confirmar que os dados dos cliques estão sendo recebidos e processados corretamente.
-
-### Conclusão
-
-Seguindo este tutorial, você aprendeu como implementar o rastreamento de cliques em um projeto Vue.js e configurar a comunicação com uma API NestJS para processar os dados. Agora você pode usar essa abordagem para capturar e analisar o comportamento dos usuários em sua aplicação.
