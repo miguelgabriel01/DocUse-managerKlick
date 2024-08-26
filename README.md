@@ -24,9 +24,22 @@ Antes de começar, você precisará clonar o repositório da API e iniciar o ser
    npm run start
    ```
 
-Isso iniciará a API NestJS na porta `3001` por padrão. Agora, podemos implementar o rastreamento de cliques no nosso projeto Vue.js e enviar os dados para essa API.
+Isso iniciará a API NestJS na porta `3030` por padrão. Agora, podemos implementar o rastreamento de cliques no nosso projeto Vue.js e enviar os dados para essa API.
 
-### Passo 1: Implementar a Classe `ClickTracker`
+
+### Passo 1: Instalar o Axios
+Se o axios não está instalado no seu projeto, você pode instalá-lo usando npm ou yarn. Abra o terminal no diretório do seu projeto e execute um dos seguintes comandos:
+
+Usando npm:
+
+```bash
+npm install axios
+```
+Usando yarn:
+```bash
+yarn add axios
+```
+### Passo 2: Implementar a Classe `ClickTracker`
 
 Crie uma classe `ClickTracker` que será responsável por gerenciar e enviar os dados dos cliques para a API.
 
@@ -93,7 +106,7 @@ class ClickTracker {
 export default ClickTracker;
 ```
 
-### Passo 2: Criar um Componente Vue.js Simples
+### Passo 3: Criar um Componente Vue.js Simples
 
 Vamos criar um componente Vue.js com três botões, cada um com um ID seguindo a convenção de nomenclatura, e configurá-los para enviar dados de cliques para a API.
 
@@ -143,7 +156,7 @@ button {
 </style>
 ```
 
-### Passo 3: Aplicar a Lógica de Nomenclatura para IDs de Botões
+### Passo 4: Aplicar a Lógica de Nomenclatura para IDs de Botões
 
 Para garantir uma nomenclatura consistente e clara para os botões em seus projetos, recomendamos a seguinte convenção:
 
@@ -157,7 +170,7 @@ A estrutura recomendada para os IDs dos botões segue o padrão:
 - **`Seção`**: Identifica a seção do HTML onde o botão está localizado, como `nav` (barra de navegação), `footer` (rodapé), `form` (formulário), etc.
 - **`Ação/Opção`**: Descreve a ação que o botão realiza ou a opção que ele representa, como `salvar`, `excluir`, `deletar`, `copiar`, `sim`, `não`, `jogar`, etc.
 
-### Passo 4: Testar a Funcionalidade
+### Passo 5: Testar a Funcionalidade
 
 1. **Inicie a API NestJS**:
 
