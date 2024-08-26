@@ -11,7 +11,7 @@ Antes de começar, você precisará clonar o repositório da API e iniciar o ser
 1. **Clone o repositório da API NestJS:**
 
    ```bash
-   git clone https://git.com/teste/tesre
+   git clone https://git.com/teste/tesre](https://github.com/miguelgabriel01/MG-ClickStream-Middleware
    ```
 
 2. **Instale as dependências e inicie a API:**
@@ -161,7 +161,7 @@ A estrutura recomendada para os IDs dos botões segue o padrão:
 
 1. **Inicie a API NestJS**:
 
-   Se você ainda não fez isso, certifique-se de que a API está rodando na porta correta (`3001`).
+   Se você ainda não fez isso, certifique-se de que a API está rodando na porta correta (`3030`).
 
    ```bash
    cd tesre
