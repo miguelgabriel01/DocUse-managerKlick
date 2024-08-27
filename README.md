@@ -156,7 +156,7 @@ button {
 </style>
 ```
 
-### Passo 4: Aplicar a Lógica de Nomenclatura para IDs de Botões
+### Passo 4: Guia de Nomenclatura de Botões
 
 Para garantir uma nomenclatura consistente e clara para os botões em seus projetos, recomendamos a seguinte convenção:
 
@@ -170,6 +170,40 @@ A estrutura recomendada para os IDs dos botões segue o padrão:
 - **`Seção`**: Identifica a seção do HTML onde o botão está localizado, como `nav` (barra de navegação), `footer` (rodapé), `form` (formulário), etc.
 - **`Ação/Opção`**: Descreve a ação que o botão realiza ou a opção que ele representa, como `salvar`, `excluir`, `deletar`, `copiar`, `sim`, `não`, `jogar`, etc.
 
+#### Exemplos de Nomenclatura
+
+1. **Botões de Navegação**:
+   - `CS-nav-home`: Um botão na barra de navegação que leva à página inicial.
+   - `CS-nav-settings`: Um botão na barra de navegação que abre as configurações.
+
+2. **Botões de Formulário**:
+   - `CS-form-submit`: Um botão em um formulário para enviar os dados.
+   - `CS-form-cancel`: Um botão em um formulário para cancelar a operação.
+
+3. **Botões de Ação**:
+   - `CS-action-save`: Um botão para salvar dados.
+   - `CS-action-delete`: Um botão para excluir um item.
+
+4. **Botões de Confirmação**:
+   - `CS-confirm-yes`: Um botão para confirmar uma ação.
+   - `CS-confirm-no`: Um botão para cancelar uma ação.
+
+#### Benefícios da Nomenclatura Recomendado
+
+- **Clareza**: Os IDs descritivos ajudam a identificar rapidamente o contexto e a função de cada botão.
+- **Consistência**: Seguir uma convenção uniforme facilita a manutenção e a compreensão do código, especialmente em projetos grandes com múltiplos botões e seções.
+- **Facilidade de Manutenção**: Com uma nomenclatura clara, é mais fácil realizar alterações e atualizações no código, bem como depurar problemas.
+
+#### Aplicação da Nomenclatura
+
+Para criar seus próprios botões usando esta convenção, siga os passos:
+
+1. **Determine o Contexto**: Decida qual é o contexto do botão (`nav`, `footer`, `form`, etc.).
+2. **Defina a Ação ou Opção**: Identifique o que o botão fará (`salvar`, `excluir`, `copiar`, `sim`, `não`, etc.).
+3. **Combine os Elementos**: Junte o prefixo `CS` com a seção e a ação/opção para formar o ID do botão.
+
+Ao seguir essa convenção, você garantirá que seus botões tenham IDs claros e consistentes, facilitando a colaboração e a manutenção do projeto.
+
 ### Passo 5: Testar a Funcionalidade
 
 1. **Inicie a API NestJS**:
@@ -177,7 +211,7 @@ A estrutura recomendada para os IDs dos botões segue o padrão:
    Se você ainda não fez isso, certifique-se de que a API está rodando na porta correta (`3030`).
 
    ```bash
-   cd tesre
+   cd MG-ClickStream-Middleware
    npm run start
    ```
 
